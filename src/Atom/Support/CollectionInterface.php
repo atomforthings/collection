@@ -3,13 +3,17 @@
 namespace Atom\Support;
 
 use Countable;
-use ArrayAccess;
-use ArrayIterator;
-use CachingIterator;
-use JsonSerializable;
 use IteratorAggregate;
-use InvalidArgumentException;
+use ArrayAccess;
 
-interface Collection implements ArrayAccess, Countable, IteratorAggregate, JsonSerializable {
-	;
+interface CollectionInterface extends Countable, IteratorAggregate, ArrayAccess {
+
+	public function count();
+	public function getIterator();
+
+	public function offsetExists($offset);
+	public function offsetGet($offset);
+	public function offsetSet($offset, $value);
+	public function offsetUnset($offset);
+	
 }
