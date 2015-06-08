@@ -1,7 +1,7 @@
 {
-    "name": "atomforthings/collection",
+    "name": "atomforthings/support-php",
+    "description" : "Support library for Atom's PHP Libraries",
     "keywords": ["atom", "atomforthings", "atom for things", "iot", "internet of things", "protocol"],
-    "type": "library",
     "license": "MIT",
     "version": "0.0.1",
     "authors": [
