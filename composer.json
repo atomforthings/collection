@@ -3,7 +3,7 @@
     "keywords": ["atom", "atomforthings", "atom for things", "iot", "internet of things", "protocol"],
     "type": "library",
     "license": "MIT",
-    "version": "0.0.1-alpha.1",
+    "version": "0.0.1-alpha.2",
     "authors": [
         {
             "name": "neerajsohal",
