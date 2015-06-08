@@ -8,7 +8,7 @@ abstract class AbstractCollection implements CollectionInterface {
 
 	protected $items = [];
 
-	public function __construct($items = []) {
+	public function __construct($items) {
 		$this->items = is_array($items) ? $items : array_push($this->items, $items);
 	}
 
