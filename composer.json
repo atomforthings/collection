@@ -3,7 +3,7 @@
     "description" : "Support library for Atom's PHP Libraries",
     "keywords": ["atom", "atomforthings", "atom for things", "iot", "internet of things", "protocol"],
     "license": "MIT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "authors": [
         {
             "name": "neerajsohal",
